@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		15D466FC26D664BC009DF1E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D466FB26D664BC009DF1E9 /* main.m */; };
+		15D4670426D6F554009DF1E9 /* CountingValleys.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D4670326D6F554009DF1E9 /* CountingValleys.m */; };
+		15D4670926D7F5B6009DF1E9 /* JumpingOnTheClouds.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D4670826D7F5B6009DF1E9 /* JumpingOnTheClouds.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		15D466F826D664BC009DF1E9 /* HackerRankTasks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRankTasks; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D466FB26D664BC009DF1E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15D4670226D6F554009DF1E9 /* CountingValleys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountingValleys.h; sourceTree = "<group>"; };
+		15D4670326D6F554009DF1E9 /* CountingValleys.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountingValleys.m; sourceTree = "<group>"; };
+		15D4670726D7F5B6009DF1E9 /* JumpingOnTheClouds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JumpingOnTheClouds.h; sourceTree = "<group>"; };
+		15D4670826D7F5B6009DF1E9 /* JumpingOnTheClouds.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JumpingOnTheClouds.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,29 @@
 		15D466FA26D664BC009DF1E9 /* HackerRankTasks */ = {
 			isa = PBXGroup;
 			children = (
+				15D4670626D7F460009DF1E9 /* JumpingOnTheClouds */,
+				15D4670526D6F55F009DF1E9 /* CountingValleys */,
 				15D466FB26D664BC009DF1E9 /* main.m */,
 			);
 			path = HackerRankTasks;
+			sourceTree = "<group>";
+		};
+		15D4670526D6F55F009DF1E9 /* CountingValleys */ = {
+			isa = PBXGroup;
+			children = (
+				15D4670226D6F554009DF1E9 /* CountingValleys.h */,
+				15D4670326D6F554009DF1E9 /* CountingValleys.m */,
+			);
+			path = CountingValleys;
+			sourceTree = "<group>";
+		};
+		15D4670626D7F460009DF1E9 /* JumpingOnTheClouds */ = {
+			isa = PBXGroup;
+			children = (
+				15D4670726D7F5B6009DF1E9 /* JumpingOnTheClouds.h */,
+				15D4670826D7F5B6009DF1E9 /* JumpingOnTheClouds.m */,
+			);
+			path = JumpingOnTheClouds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				15D466FC26D664BC009DF1E9 /* main.m in Sources */,
+				15D4670926D7F5B6009DF1E9 /* JumpingOnTheClouds.m in Sources */,
+				15D4670426D6F554009DF1E9 /* CountingValleys.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
